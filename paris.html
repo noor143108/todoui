@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=devive-width,intial-scale=1.0">
+    <title>TODO App</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+h1 {
+  overflow: hidden;
+  text-align: center;
+}
+body{
+    font-family: Arial Narrow, sans-serif
+}
+
+h1:before,
+h1:after {
+  background-color: #000;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 50%;
+}
+h1:before {
+  right: 0.5em;
+  margin-left: -50%;
+}
+
+h1:after {
+  left: 0.5em;
+  margin-right: -50%;
+}
+.back{
+    position: absolute;
+    left: 45%;
+    top: auto;
+}
+.box1{
+    border-radius: 5%;
+    border:3px solid ;
+    align-self: center;
+margin:100px;
+margin-left: 635px;
+}
+.img{
+    margin-top: 125px;
+    margin-left: 375px;
+}
+    </style>
+</head>
+<body>
+   <h1 style="font-size: 65px;font-weight: 500;">Trip to paris</h1>
+   <div class="back">
+   <a href=index.html style="font-size: 35px;text-decoration: none;"><img src="left.jpg" width="45px "height="45px">Back</a>
+</div>
+<div class="box box1">
+    <a href="paris.html" style="text-decoration: none;color:crimson;">Trip to paris</a>
+    <hr>
+    <hr>
+    <a href="#" style="text-decoration: none;color: red;"><del>completed tasks</del></a> <br>
+         <a href="#" style="text-decoration: none; color: black;"><img src="box.png" width="25px" height="25px">pending tasks</a>
+        <div class="img">
+    <img src="plus.jpg" width="35px" height="35px" style="position: absolute;right: 43%;bottom: 140px;">
+    </div>
+</div>
+</body>
+</html>
